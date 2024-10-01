@@ -16,10 +16,10 @@ def main():
 
 
     args = parser.parse_args()
-
-    # clear_file()
+    # get_id()
+    clear_file()
     if args.add:        
-        add_task(Task(id=1, description= args.add, createdAt= datetime.now(), updatedAt= datetime.now() ).model_dump_json(indent=4))
+        add_task(Task(id=1, description= args.add, createdAt= datetime.now().isoformat(), updatedAt= datetime.now().isoformat()).json_custom())
 
     
 

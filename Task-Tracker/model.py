@@ -1,13 +1,13 @@
 from pydantic import BaseModel
-from datetime import datetime as dt
+
 
 
 class Task(BaseModel):
     id : int
     description: str 
     status: str = "todo"
-    createdAt: dt
-    updatedAt: dt
+    createdAt: str
+    updatedAt: str
     
     def json_custom(self):
         return {
