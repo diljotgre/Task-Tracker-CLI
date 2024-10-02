@@ -15,7 +15,7 @@ class Task(BaseModel):
             "description" : self.description,
             "status" : self.status,
             "createdAt" : self.createdAt,
-            "updatedAt" : self.updatedAt
+            "updatedAt" : self.updatedAt,
         }
     
     

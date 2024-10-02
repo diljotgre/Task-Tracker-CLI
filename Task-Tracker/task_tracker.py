@@ -1,5 +1,5 @@
 import argparse
-from crud import add_task,clear_file
+from crud import add_task,clear_file,get_id
 import os
 from model import Task, Test
 import json
@@ -16,10 +16,10 @@ def main():
 
 
     args = parser.parse_args()
-    # get_id()
-    clear_file()
+    id_counter  =get_id()
+    # clear_file()
     if args.add:        
-        add_task(Task(id=1, description= args.add, createdAt= datetime.now().isoformat(), updatedAt= datetime.now().isoformat()).json_custom())
+        add_task(Task(id= id_counter+1, description= args.add, createdAt= datetime.now().isoformat(), updatedAt= datetime.now().isoformat()).json_custom())
 
     
 
