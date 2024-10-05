@@ -1,16 +1,23 @@
 [
   {
-    "id": 1,
-    "description": "studying",
-    "status": "todo",
-    "createdAt": "2024-10-01T19:54:45.507004",
-    "updatedAt": "2024-10-01T19:54:45.507004"
-  },
-  {
     "id": 2,
     "description": "groceries",
-    "status": "todo",
+    "status": "done",
     "createdAt": "2024-10-01T20:18:27.385574",
     "updatedAt": "2024-10-01T20:18:27.385574"
+  },
+  {
+    "id": 3,
+    "description": "go to the doctor and get forms filled out",
+    "status": "in-progress",
+    "createdAt": "2024-10-03T21:48:40.512630",
+    "updatedAt": "2024-10-03T21:50:15.125289"
+  },
+  {
+    "id": 4,
+    "description": "get receipt",
+    "status": "todo",
+    "createdAt": "2024-10-05T18:07:32.078859",
+    "updatedAt": "2024-10-05T18:07:58.854596"
   }
 ]
