@@ -1,14 +1,14 @@
-from setuptools import setup 
+from setuptools import setup, find_packages
 
 setup(
     name="task-tracker",
-    version="0.3",
+    version="1.2",
     description="A CLI for tracking your tasks and managing your to-dos for you",
-    py_modules=['task_tracker'],
+    packages= find_packages(),
     entry_points=
     {
         'console_scripts':[
-            'task-tracker=task_tracker:main',
+            'task-tracker=modules.task_tracker:main',
         ],
         
     },

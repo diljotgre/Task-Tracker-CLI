@@ -1,2 +1,2 @@
 [console_scripts]
-task-tracker = task_tracker:main
+task-tracker = modules.task_tracker:main

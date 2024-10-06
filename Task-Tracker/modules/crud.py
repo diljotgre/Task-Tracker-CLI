@@ -2,7 +2,7 @@ import os
 import json
 
 
-file_path = "tasks.json" #default file path 
+file_path = "modules/tasks.json" #default file path 
 
 # def get_prev(filepath = file_path):
   

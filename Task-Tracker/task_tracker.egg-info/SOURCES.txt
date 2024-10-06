@@ -1,6 +1,9 @@
 README.md
 setup.py
-task_tracker.py
+modules/__init__.py
+modules/crud.py
+modules/model.py
+modules/task_tracker.py
 task_tracker.egg-info/PKG-INFO
 task_tracker.egg-info/SOURCES.txt
 task_tracker.egg-info/dependency_links.txt

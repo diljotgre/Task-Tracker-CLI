@@ -1,7 +1,7 @@
 import argparse
-from crud import add_task,clear_file,get_id, update_task, delete_task, list_tasks, list_type, mark
+from modules.crud import add_task,clear_file,get_id, update_task, delete_task, list_tasks, list_type, mark
 import os
-from model import Task, Test
+from modules.model import Task, Test
 import json
 from datetime import datetime
 
